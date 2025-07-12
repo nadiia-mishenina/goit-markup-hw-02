@@ -1,0 +1,155 @@
+/* * - застосовуємо для всіх*/
+* {
+  list-style-type: none;
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+}
+/* text-deciration - none - вимикає підчеркування посилань */
+a {
+  text-decoration: none;
+}
+
+/* Header section start */
+
+.header-navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.header-navigation-logo {
+  position: relative;
+  width: 44px;
+  font-family: 'Raleway', Helvetica;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.54px;
+  line-height: 21px;
+}
+.header-navigation-logo-web {
+  color: #4d5ae5;
+}
+
+.address-list-iteam {
+  color: #434455;
+}
+
+/* Header section end */
+.hero-banner-title,
+.hero-banner-button,
+.hero-banner-button:hover {
+  color: #ffffff;
+}
+
+.team-list-iteam-text,
+.benefits-list-iteam-text,
+.portfolio-list-iteam-text {
+  color: #434455;
+}
+/* Hero-banner section srart */
+.hero-banner {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.hero-banner-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-banner-button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.hero-banner-button:hover {
+  background-color: #404bbf;
+}
+
+/* Hero-banner section end */
+
+/* Benefits section start*/
+
+.benefits-list-iteam-title {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+}
+.benefits-list-iteam-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+/* Benefits section end*/
+
+/* Team section start*/
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.team-list-iteam-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+.team-list-iteam-text {
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+/* Team section end*/
+
+/* Portfolio section start */
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.portfolio-list-iteam-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-list-iteam-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Portfolio section end */
+
+/* Bottom section start */
+.bottom {
+  width: 1440px;
+  height: 312px;
+  background-color: #2e2f42;
+}
+.bottom-logo {
+  font-family: 'Raleway', Helvetica;
+  font-weight: 700;
+  color: #f4f4fd;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+}
+.bottom-logo-web {
+  color: #4d5ae5;
+}
+.bottom-text {
+  font-size: 16px;
+  color: #e7e9fc;
+}
+/* Bottom section end */
