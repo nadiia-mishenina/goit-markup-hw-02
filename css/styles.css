@@ -41,13 +41,14 @@ body {
 .header-navigation-a:focus {
   color: #404bbf;
 }
-
+.address {
+  font-style: normal;
+}
 .address-list-iteam-a {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 .address-list-iteam-a:hover {
   color: #404bbf;
@@ -76,6 +77,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 .hero-banner-button {
   background-color: #4d5ae5;
@@ -118,6 +120,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 .team-list-iteam {
   background-color: #ffffff;
@@ -143,6 +146,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .portfolio-list-iteam-title {
