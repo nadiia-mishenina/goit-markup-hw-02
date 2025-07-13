@@ -34,10 +34,12 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
-.header-navigation-a:hover {
+.header-navigation-a:hover,
+.header-navigation-list:hover {
   color: #404bbf;
 }
-.header-navigation-a:focus {
+.header-navigation-a:focus,
+.header-navigation-list:focus {
   color: #404bbf;
 }
 .address {
