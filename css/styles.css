@@ -21,7 +21,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   line-height: 1.17;
   color: #4d5ae5;
 }
@@ -33,19 +33,21 @@ body {
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 .header-navigation-a:hover {
   color: #404bbf;
 }
-
-.adress {
-  font-style: normal;
+.header-navigation-a:focus {
+  color: #404bbf;
 }
+
 .address-list-iteam-a {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .address-list-iteam-a:hover {
   color: #404bbf;
@@ -74,7 +76,6 @@ body {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .hero-banner-button {
   background-color: #4d5ae5;
@@ -87,7 +88,9 @@ body {
 .hero-banner-button:hover {
   background-color: #404bbf;
 }
-
+.hero-banner-button:focus {
+  background-color: #404bbf;
+}
 /* Hero-banner section end */
 
 /* Benefits section start*/
@@ -114,10 +117,9 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   text-transform: capitalize;
 }
-.team-list {
+.team-list-iteam {
   background-color: #ffffff;
 }
 .team-list-iteam-title {
@@ -140,7 +142,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-align: center;
   text-transform: capitalize;
 }
 
